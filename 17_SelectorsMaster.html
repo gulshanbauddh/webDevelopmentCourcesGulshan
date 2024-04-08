@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div {
+            /* background-color: red */
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+
+        /* Id Selectoor */
+        #green {
+            background-color: green;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+
+        /* Descendent Selector */
+        div p {
+            color: rgb(121, 206, 36);
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a:visited{
+            color: aqua;
+        }
+    </style>
+
+    <!-- Pseudo selector -->
+</head>
+
+<body>
+    <div class="red">
+        I hava a div
+        <p>I am Para Innsside Div</p>
+    </div>
+
+    <div id="green">I hava another div</div>
+
+    <a href="https://www.google.co/">go to google</a>
+</body>
+
+</html>
