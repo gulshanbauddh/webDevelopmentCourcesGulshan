@@ -4,64 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Position Property</title>
+    <title>CSS Position</title>
     <style>
         * {
             margin: 0;
             padding: 0;
         }
 
-        .parants {
-            padding: 43px;
-            margin: 33px;
-            border: 4px solid purple;
-            position: relative;
-
+        .box {
+            height: 433px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
         }
 
         .box1 {
-            background-color: red;
-            position: sticky;
-            /* position: absolute; */
-            /* top: 10px;
-            left: 10px; */
+            background-color: aqua;
+            /* position: sticky;
+            top:0px;
+            height: 111px;
+            width:100%;
+            margin: 0;
+            padding: 0; */
+            position: absolute;
+            top: 0px;
+            left:3px;
         }
 
         .box2 {
+            background-color: azure;
             /* position: relative;
-            bottom: 15px;
-            left: 40px; */
-            background-color: rgb(207, 255, 136);
+            top: 34px;
+            left: 56px; */
         }
 
         .box3 {
-            background-color: rgb(98, 98, 189);
+            background-color: antiquewhite;
             /* position: fixed;
             bottom: 0px;
-            left: 10vw; */
+            left:8vw;
+            height: 111px; */
         }
 
         .box4 {
-            background-color: rgb(228, 113, 31);
+            background-color: purple;
         }
 
-        .box {
-            height: 133px;
-            width: 80vw;
-            padding: 3px;
-            border: 3px solid black;
+      
+
+        .parent {
+            padding: 43px;
+            margin: 34px;
+            border: 3px solid purple;
+            /* position: relative; */
+
+
+            /* Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+            /* transform: translate(0); */
+            /* filter: invert(0); */
+            /* perspective: 0em; */
         }
     </style>
 </head>
 
 <body>
-    <!-- By Dafult Position "Static" means => top, botom, Left, Right ettc not applicable -->
-
-    <div class="parants">
-        <div class="box box1">1</div>
-        <div class="box box2">2</div>
-        <div class="box box3">3</div>
-        <div class="box box4">4</div>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
     </div>
 </body>
 
