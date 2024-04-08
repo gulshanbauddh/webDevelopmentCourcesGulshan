@@ -11,17 +11,34 @@
             padding: 0;
         }
 
+        .parants {
+            /* padding: 43px;
+            margin: 33px;
+            border: 4px solid purple;
+            position: relative; */
+
+        }
+
         .box1 {
             background-color: red;
+            position: sticky;
+            /* position: absolute; */
+            /* top: 10px;
+            left: 10px; */
         }
 
         .box2 {
+            /* position: relative;
+            bottom: 15px;
+            left: 40px; */
             background-color: rgb(207, 255, 136);
         }
 
         .box3 {
             background-color: rgb(98, 98, 189);
-
+            /* position: fixed;
+            bottom: 0px;
+            left: 10vw; */
         }
 
         .box4 {
@@ -39,10 +56,13 @@
 
 <body>
     <!-- By Dafult Position "Static" means => top, botom, Left, Right ettc not applicable -->
-    <div class="box box1"></div>
-    <div class="box box2"></div>
-    <div class="box box3"></div>
-    <div class="box box4"></div>
+
+    <div class="parants">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
 </body>
 
 </html>
