@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(245, 132, 132);
+        }
+
+        @media only screen and (max-width:1000px) {
+            body {
+                background-color: blue;
+            }
+
+            .container {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        @media screen and (max-width:200px) {
+            body {
+                background-color: orange;
+            }
+
+            .container {
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Hey I am a red body guy!
+    </div>
+    <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+
+</html>
