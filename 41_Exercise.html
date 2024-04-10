@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise</title>
 </head>
 <style>
     * {
         margin: 0;
         padding: 0;
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
         font-family: "Roboto", sans-serif;
         font-weight: 100;
         font-style: normal;
@@ -48,16 +48,67 @@
         color: gray;
         margin: 0px 20px;
         font-weight: 500;
+    }
 
+    .container {
+        display: flex;
+        height: auto;
+        padding: 90px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container>h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+        line-height: 60px;
+    }
+
+    .container>p {
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+        margin: 20px 100px;
+    }
+
+    button {
+        height: 45px;
+        padding: 0px 10px;
+        font-weight: 600;
+        color: white;
+        background-color: #00b6d1;
+        border: none;
+        border-radius: 5px;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    .conrainer2 {
+        display: flex;
+        height: auto;
+        margin-right: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+    .conrainer2  h3{
+        font-size:25px;
+    } 
+
+    small {
+        font-weight: 400;
+        font-size: 15px;
     }
 </style>
 
 <body>
-
     <header>
         <nav class="left">
-            <img class="logo" src="/41_Logo-1.jpg" alt="logo">
-            <h1>UltraEdit
+            <img class="logo" src="/41_Logo-1.jpg" alt="logo" />
+            <h1>
+                UltraEdit
                 <p>An Idera, Inc. Company</p>
             </h1>
         </nav>
@@ -67,9 +118,27 @@
             <a href="/">Resources</a>
             <a href="/">About us</a>
             <a href="/">Security and compliance</a>
-            <img height="30px" src="41_language.png" alt="">
+            <img height="30px" src="41_language.png" alt="" />
         </nav>
     </header>
+    <div class="container">
+        <h1>Download <strong>UltraEdit</strong> for Windows</h1>
+        <p>
+            Download and try UltraEdit before you buy it! This download includes the
+            full Windows version of the text editor.
+        </p>
+        <button class="button">DOWNLOAD MAC OR LINUX VERSION</button>
+    </div>
+
+    <div class="conrainer2">
+        <img style="margin-right: 10px;" class="logo" src="/41_Logo-1.jpg" alt="logo">
+        <div>
+            <h3>
+                Download UltraEdit
+                <small>v2023.2(released 2023/12/15) | Hotfix</small>
+            </h3>
+        </div>
+    </div>
 </body>
 
 </html>
