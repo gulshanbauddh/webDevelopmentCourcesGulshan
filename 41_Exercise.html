@@ -1,144 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercise</title>
-</head>
-<style>
+  </head>
+  <style>
     * {
-        margin: 0;
-        padding: 0;
-        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
+      margin: 0;
+      padding: 0;
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      font-style: normal;
     }
 
     header {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
     }
 
-    header>.left,
+    header > .left,
     .right {
-        display: flex;
-        align-items: center;
-        margin: 0px 150px;
+      display: flex;
+      align-items: center;
+      margin: 0px 150px;
     }
 
     .logo {
-        height: 70px;
+      height: 70px;
     }
 
-    .left>h1 {
-        font-size: 30px;
-        font-weight: 900;
+    .left > h1 {
+      font-size: 30px;
+      font-weight: 900;
     }
 
-    .left>h1>p {
-        font-size: 10px;
-        text-align: end;
+    .left > h1 > p {
+      font-size: 10px;
+      text-align: end;
     }
 
-    .right>a {
-        text-decoration: none;
-        color: gray;
-        margin: 0px 20px;
-        font-weight: 500;
+    .right > a {
+      text-decoration: none;
+      color: gray;
+      margin: 0px 20px;
+      font-weight: 500;
     }
 
     .container {
-        display: flex;
-        height: auto;
-        padding: 90px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      height: auto;
+      padding: 90px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
-    .container>h1 {
-        font-size: 50px;
-        letter-spacing: 2px;
-        line-height: 60px;
+    .container > h1 {
+      font-size: 50px;
+      letter-spacing: 2px;
+      line-height: 60px;
     }
 
-    .container>p {
-        font-size: 15px;
-        letter-spacing: 2px;
-        text-align: center;
-        margin: 20px 100px;
+    .container > p {
+      font-size: 15px;
+      letter-spacing: 2px;
+      text-align: center;
+      margin: 20px 100px;
     }
 
-    button {
-        height: 45px;
-        padding: 0px 10px;
-        font-weight: 600;
-        color: white;
-        background-color: #00b6d1;
-        border: none;
-        border-radius: 5px;
+    .button {
+      height: 45px;
+      padding: 0px 10px;
+      font-weight: 600;
+      color: white;
+      background-color: #00b6d1;
+      border: none;
+      border-radius: 5px;
     }
 
     strong {
-        font-weight: 700;
+      font-weight: 700;
     }
 
     .conrainer2 {
-        display: flex;
-        height: auto;
-        margin-right: 550px;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      height: auto;
+      margin-right: 550px;
+      justify-content: center;
+      align-items: center;
     }
-    .conrainer2  h3{
-        font-size:25px;
-    } 
+
+    .conrainer2 h3 {
+      font-size: 25px;
+    }
 
     small {
-        font-weight: 400;
-        font-size: 15px;
+      font-weight: 400;
+      font-size: 15px;
     }
-</style>
 
-<body>
+    .box {
+      background-color: #f0eded;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      width: 320px;
+      height: 160px;
+      margin: 20px;
+    }
+
+    .box > h1 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .button11 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    }
+
+    .button11 > button {
+      background-color: #00b6d1;
+      color: white;
+      margin: 8px 15px;
+      padding: 8px 13px;
+      font-weight: 600;
+      border-radius: 5px;
+      border: none;
+    }
+
+    .container3 {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+
+    .box > p {
+      margin-top: 15px;
+    }
+
+    .boxEmpty {
+      background: none;
+    }
+  </style>
+
+  <body>
     <header>
-        <nav class="left">
-            <img class="logo" src="/41_Logo-1.jpg" alt="logo" />
-            <h1>
-                UltraEdit
-                <p>An Idera, Inc. Company</p>
-            </h1>
-        </nav>
-        <nav class="right">
-            <a href="/">Products</a>
-            <a href="/">Pricing</a>
-            <a href="/">Resources</a>
-            <a href="/">About us</a>
-            <a href="/">Security and compliance</a>
-            <img height="30px" src="41_language.png" alt="" />
-        </nav>
+      <nav class="left">
+        <img class="logo" src="/41_Logo-1.jpg" alt="logo" />
+        <h1>
+          UltraEdit
+          <p>An Idera, Inc. Company</p>
+        </h1>
+      </nav>
+      <nav class="right">
+        <a href="/">Products</a>
+        <a href="/">Pricing</a>
+        <a href="/">Resources</a>
+        <a href="/">About us</a>
+        <a href="/">Security and compliance</a>
+        <img height="30px" src="41_language.png" alt="" />
+      </nav>
     </header>
     <div class="container">
-        <h1>Download <strong>UltraEdit</strong> for Windows</h1>
-        <p>
-            Download and try UltraEdit before you buy it! This download includes the
-            full Windows version of the text editor.
-        </p>
-        <button class="button">DOWNLOAD MAC OR LINUX VERSION</button>
+      <h1>Download <strong>UltraEdit</strong> for Windows</h1>
+      <p>
+        Download and try UltraEdit before you buy it! This download includes the
+        full Windows version of the text editor.
+      </p>
+      <button class="button">DOWNLOAD MAC OR LINUX VERSION</button>
     </div>
 
     <div class="conrainer2">
-        <img style="margin-right: 10px;" class="logo" src="/41_Logo-1.jpg" alt="logo">
-        <div>
-            <h3>
-                Download UltraEdit
-                <small>v2023.2(released 2023/12/15) | Hotfix</small>
-            </h3>
-        </div>
+      <img
+        style="margin-right: 10px"
+        class="logo"
+        src="/41_Logo-1.jpg"
+        alt="logo"
+      />
+      <div>
+        <h3>
+          Download UltraEdit
+          <small>v2023.2(released 2023/12/15) | Hotfix</small>
+        </h3>
+      </div>
     </div>
-</body>
 
+    <div class="container3">
+      <div class="box">
+        <h1>English</h1>
+        <p>Indian</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Deutsch</h1>
+        <p>German</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Italiano</h1>
+        <p>Italian</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="box">
+        <h1>Español</h1>
+        <p>Spanish</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>français</h1>
+        <p>French</p>
+
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>Português brasileiro</h1>
+        <p>Brazilian Portuguese</p>
+
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="box">
+        <h1>日本</h1>
+        <p>Japanese</p>
+
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>한국어</h1>
+        <p>Korean</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box">
+        <h1>中国</h1>
+        <p>Chinese</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============= -->
+
+    <div class="container3">
+      <div class="box">
+        <h1>中國</h1>
+        <p>Traditional Chinese</p>
+        <div class="button11">
+          <button>Download 32-bit</button>
+          <button style="background-color: #5cb85c">Download 32-bit</button>
+        </div>
+      </div>
+      <div class="box boxEmpty">
+        <!-- <h1>한국어</h1>
+            <div class="button11">
+                <button>Download 32-bit</button>
+                <button style="background-color: #5cb85c;">Download 32-bit</button>
+            </div> -->
+      </div>
+      <div class="box boxEmpty">
+        <!-- <h1>中国</h1>
+            <div class="button11">
+                <button>Download 32-bit</button>
+                <button style="background-color: #5cb85c;">Download 32-bit</button>
+            </div> -->
+      </div>
+    </div>
+  </body>
 </html>
