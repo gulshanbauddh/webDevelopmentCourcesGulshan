@@ -18,12 +18,15 @@
 
     header {
         display: flex;
+        justify-content: center;
+        margin-top: 10px;
     }
 
-    header>.left {
+    header>.left,
+    .right {
         display: flex;
         align-items: center;
-        padding-left: 148px;
+        margin: 0px 150px;
     }
 
     .logo {
@@ -40,15 +43,12 @@
         text-align: end;
     }
 
-    .right {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-
-    }
-
     .right>a {
         text-decoration: none;
+        color: gray;
+        margin: 0px 20px;
+        font-weight: 500;
+
     }
 </style>
 
@@ -57,7 +57,7 @@
     <header>
         <nav class="left">
             <img class="logo" src="/41_Logo-1.jpg" alt="logo">
-            <h1>UltraDdit
+            <h1>UltraEdit
                 <p>An Idera, Inc. Company</p>
             </h1>
         </nav>
@@ -67,7 +67,7 @@
             <a href="/">Resources</a>
             <a href="/">About us</a>
             <a href="/">Security and compliance</a>
-            <img height="50px" src="41_language.png" alt="">
+            <img height="30px" src="41_language.png" alt="">
         </nav>
     </header>
 </body>
