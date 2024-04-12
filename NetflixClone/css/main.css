@@ -4,5 +4,20 @@
 }
  
 header{
-    background-image: url(C:\Users\Kajal\Desktop\Gulshan\webDevelopmentCourcesGulshan\NetflixClone\saman\bg.jpg);
+    background-image: url(/NetflixClone/saman/bg.jpg);
+    height: 80vh;
+}
+header>.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.55;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav img{
+    width: 200px;
 }
