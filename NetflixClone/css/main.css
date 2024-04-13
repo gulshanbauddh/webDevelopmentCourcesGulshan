@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* color: white; */
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
@@ -248,7 +249,6 @@ body {
 
 .question {
     text-align: center;
-    text-align: center;
     padding-bottom: 3rem;
 }
 
@@ -287,4 +287,32 @@ body {
 .question ul li:hover {
     background-color: rgb(102, 102, 102);
 
+}
+.last{
+    margin: 5rem 9%;
+    text-align: left;
+}
+.lastContainer ul{
+    display: flex;
+    column-gap: 10rem;
+    padding: 2rem 0rem;
+
+}
+.lastContainer li{
+    display: flex;
+    flex-direction: column;
+}
+
+.last a{
+    color: white;
+    padding: 0.25rem;
+}
+
+.button3{
+    color: white;
+    padding: 0.45rem 1.3rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.422);
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
