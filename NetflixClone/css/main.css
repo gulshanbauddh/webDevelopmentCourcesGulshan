@@ -6,49 +6,29 @@
 
 header {
     background-image: url(/NetflixClone/saman/bg.jpg);
-    height: 80vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 620px;
+    position: relative;
 }
 
-header>.box {
-    height: 80vh;
-    width: 100%;
+.box {
     background-color: black;
-    opacity: 0.55;
+    height: 620px;
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    top: 0px;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    gap: 500px;
-    padding-top: 15px;
+    justify-content: space-around;
+    padding-top: 1.3rem;
 }
 
 nav img {
-    width: 200px;
-}
-
-.box button {
-    text-decoration: none;
-    width: 70px;
-    height: 30px;
-    margin: 1px 10px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-.button1 {
-    background-color: red;
-    border-radius: none;
-}
-
-.button2 {
-    border-radius: none;
-    background-color: rgba(240, 248, 255, 0);    
-    border-radius: none;
-}
-img{
-    position: relative;
-    z-index: 10;
+    width: 180px;
 }
