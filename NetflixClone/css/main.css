@@ -239,3 +239,9 @@ body {
     left: 109px;
     top: 0rem;
 }
+
+.thirdPage img {
+    width: 40rem;
+    padding-right: 1rem;
+    padding-left: 0rem;
+}
