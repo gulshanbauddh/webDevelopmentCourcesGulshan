@@ -183,3 +183,42 @@ body {
     right: 0px;
     top: 0rem;
 }
+
+.shortIcon img {
+    width: 50px;
+}
+
+.thirdPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+    height: 40vw;
+}
+
+.imageContainer2 {
+    position: relative;
+}
+
+.shortIcon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 150px;
+    height: 4rem;
+    width: 20rem;
+    border: 2px solid white;
+    border-radius: 9px;
+    background-color: black;
+    padding: 0.5rem 0.5rem;
+    gap: 25px;
+    justify-content: center;
+    text-align: left;
+}
+
+.shortIcon p {
+    color: #0071eb;
+}
