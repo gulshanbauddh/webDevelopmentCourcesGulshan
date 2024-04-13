@@ -92,7 +92,7 @@ nav img {
     padding: 0.6rem 0rem;
 }
 
-.container2{
+.container2 {
     padding: 1.6rem 0rem;
     align-items: center;
     align-content: center;
@@ -135,10 +135,52 @@ nav img {
     border: 1px solid rgba(246, 238, 238, 0.904);
 }
 
-.diveder{
+.diveder {
     position: relative;
     top: 0px;
-    height: 2rem;
+    height: 1rem;
     width: 100%;
     background-color: #2c2c2cf7;
+}
+
+/* <!-- Second Page  --> */
+body {
+    background-color: black;
+    color: white;
+}
+
+.secondPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 80vw;
+    height: 40vw;
+}
+
+.secondLeft h1 {
+    font-size: 45px;
+}
+
+.secondLeft p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.imageContainer {
+    position: relative;
+    top: 0px;
+}
+
+.imageContainer img {
+    width: 30vw;
+}
+
+.imageContainer video {
+    position: absolute;
+    width: 87%;
+    height: 100%;
+    z-index: -1;
+    right: 0px;
+    top: 0rem;
 }
