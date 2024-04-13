@@ -210,7 +210,7 @@ body {
     left: 150px;
     height: 4rem;
     width: 20rem;
-    border: 2px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.73);
     border-radius: 9px;
     background-color: black;
     padding: 0.5rem 0.5rem;
