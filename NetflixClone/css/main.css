@@ -82,13 +82,63 @@ nav img {
     font-size: 3.2rem;
 }
 
-.container1 :nth-child(2) {
+.container1> :nth-child(2) {
     font-size: 1.7rem;
     padding: 0.6rem 0rem;
 }
 
-.container1 :nth-child(3) {
+.container1> :nth-child(3) {
     font-size: 1.25rem;
     padding: 0.6rem 0rem;
 }
 
+.container2{
+    padding: 1.6rem 0rem;
+    align-items: center;
+    align-content: center;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: 400;
+    border-color: red;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container2 input {
+    padding: 0.8rem 9rem 0.8rem 1rem;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.904);
+}
+
+.diveder{
+    position: relative;
+    top: 0px;
+    height: 2rem;
+    width: 100%;
+    background-color: #2c2c2cf7;
+}
