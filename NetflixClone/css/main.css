@@ -9,14 +9,14 @@ header {
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    height: 620px;
+    height: 43rem;
     position: relative;
 }
 
 .box {
     background-color: black;
-    height: 620px;
-    opacity: 0.5;
+    height: 43rem;
+    opacity: 0.65;
     width: 100%;
     position: absolute;
     top: 0px;
@@ -25,10 +25,44 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: space-evenly;
     padding-top: 1.3rem;
+    gap: 40rem;
+    padding-left: 3rem;
 }
 
 nav img {
-    width: 180px;
+    width: 10rem;
+    position: relative;
+    z-index: 1
+}
+
+.buttonTop {
+    position: relative;
+    z-index: 1;
+}
+
+.buttonTop>.button {
+    padding: 0.4rem 0.9rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0px 0.5rem;
+}
+
+.buttonTop>.button1 {
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 0.4rem 1.5rem;
+    border: 1px solid #ffffff80;
+}
+
+.buttonTop>.button2 {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.button2:hover {
+    border: 1px solid rgba(255, 0, 0, 0.838);
+    background-color: rgba(255, 0, 0, 0.838);
 }
