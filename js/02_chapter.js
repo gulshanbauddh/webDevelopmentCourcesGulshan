@@ -41,3 +41,5 @@ let b = 2;
 
 // if(5=5) ? "Gulshan" : "Kajal";
 
+// ==== Practice set 2 ====
+
