@@ -33,6 +33,8 @@ let b = 2;
 
 if (25 != 25) {
   console.log(true);
-} else if(6==6) 
-    console.log("false1");
-else console.log("true908908")
+} else if (6 == 6) {
+  console.log("false1");
+} else {
+  console.log("true908908");
+}
