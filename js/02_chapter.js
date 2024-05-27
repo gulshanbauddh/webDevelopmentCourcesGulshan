@@ -31,10 +31,13 @@ let b = 2;
 //   console.log(true);
 // } else console.log(false);
 
-if (25 != 25) {
-  console.log(true);
-} else if (6 == 6) {
-  console.log("false1");
-} else {
-  console.log("true908908");
-}
+// if (25 != 25) {
+//   console.log(true);
+// } else if (6 == 6) {
+//   console.log("false1");
+// } else {
+//   console.log("true908908");
+// }
+
+// if(5=5) ? "Gulshan" : "Kajal";
+
