@@ -52,12 +52,15 @@ let obj = {
 // add(7,9);
 // add(7,7);
 
-// function add(a,b) {
-//     return a+b;
+// function add(a,b,c=2) {
+//     return a+b+c;
 // }
 
 // prin1= add(6,8);
-// prin2= add(16,28);
+// prin2= add(16,28,5);
 // console.log(prin1);
 // console.log(prin2);
+
+
+
 
