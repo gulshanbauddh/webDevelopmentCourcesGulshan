@@ -6,12 +6,12 @@
 
 // #2 for-in loop
 // for-in loop work in only Objet
-let obj = {
-  name: "Gulshan",
-  surName: "Bauddh",
-  rollno: "12",
-  class: "cse",
-};
+// let obj = {
+//   name: "Gulshan",
+//   surName: "Bauddh",
+//   rollno: "12",
+//   class: "cse",
+// };
 // for (const key in obj) {
 //     const element=obj[key];
 //   console.log(key, "->", element);
@@ -68,9 +68,24 @@ let obj = {
 // gul("Gulshan Bauddh");
 // gul("Gulshan GB");
 
-const gbg=(a)=>{
-  console.log("Somtiong and Nothing", a);
+// const gbg=(a)=>{
+//   console.log("Somtiong and Nothing", a);
+// };
+// gbg("hdbf");
+// gbg("dified");
+// gbg("iouirfdj");
+
+// Chapter-3 ++ Practice set
+let obj = {
+  harry: 98,
+  gulshan: 54,
+  karan: 95,
+  rohan: 45,
+  kamlesh: 65,
 };
-gbg("hdbf");
-gbg("dified");
-gbg("iouirfdj");
+for (const key in obj) {
+  if (Object.hasOwnProperty.call(obj, key)) {
+    const element = obj[key];
+    console.log(key, ":", element);
+  }
+}
