@@ -61,6 +61,16 @@ let obj = {
 // console.log(prin1);
 // console.log(prin2);
 
+// const gul=(x)=>{
+//     console.log("I am fuction",x);
+// }
+// gul("Gulshan");
+// gul("Gulshan Bauddh");
+// gul("Gulshan GB");
 
-
-
+const gbg = (a) => {
+  console.log("Somtiong and Nothing", a);
+};
+gbg("hdbf");
+gbg("dified");
+gbg("iouirfdj");
