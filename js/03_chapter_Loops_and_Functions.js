@@ -97,12 +97,19 @@
 //     console.log("Correct number");
 // } else console.log ("InCorrect Number");
 
-function mean(a,b,c,d,e) {
-    return a+b+c+d+e;
-}
+console.log("Gulshan Bauddh");
+//function gul(a,b,c,d,e){
+  // console.log((a+b+c+d+e)/5);
+//}
+//gul(3,5,7,9,3);
 
-mean=(100,23,6,5,1);
-console.log(mean)
+//__________________________
+//Method 2
+function gul(a,b,c,d,e){
+   return ((a+b+c+d+e)/5);
+}
+pre=gul(3,5,7,4,3);
+console.log(pre);
 
 
 
