@@ -68,7 +68,7 @@ let obj = {
 // gul("Gulshan Bauddh");
 // gul("Gulshan GB");
 
-const gbg = (a) => {
+const gbg=(a)=>{
   console.log("Somtiong and Nothing", a);
 };
 gbg("hdbf");
