@@ -76,16 +76,34 @@
 // gbg("iouirfdj");
 
 // Chapter-3 ++ Practice set
-let obj = {
-  harry: 98,
-  gulshan: 54,
-  karan: 95,
-  rohan: 45,
-  kamlesh: 65,
-};
-for (const key in obj) {
-  if (Object.hasOwnProperty.call(obj, key)) {
-    const element = obj[key];
-    console.log(key, ":", element);
-  }
+// === Q-1 ==
+// let obj = {
+//     harry: 98,
+//     gulshan: 54,
+//     karan: 95,
+//     rohan: 45,
+//     kamlesh: 65,
+// };
+// for (const key in obj) {
+//     if (Object.hasOwnProperty.call(obj, key)) {
+//         const element = obj[key];
+//         console.log(key, ":", element);
+//     }
+// }
+
+// === Q-3 ===
+// let a=7;
+// if(a==7){
+//     console.log("Correct number");
+// } else console.log ("InCorrect Number");
+
+function mean(a,b,c,d,e) {
+    return a+b+c+d+e;
 }
+
+mean=(100,23,6,5,1);
+console.log(mean)
+
+
+
+
