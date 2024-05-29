@@ -37,5 +37,5 @@
 // console.log(str1);
 // Method-2
 let str="Gulshan";
-str1=str.replace(str.slice(3,4),"B");
+str1=str.replace(str.slice(3,4),"y");
 console.log(str1);
