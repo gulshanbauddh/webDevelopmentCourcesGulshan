@@ -50,19 +50,19 @@
 // }
 
 // === Q-2===
-// let a = 2;
-// switch (a) {
-    //   case 1:
-    //     console.log("This is 1st.");
-    //     break;
-    //   case 2:
-    //     console.log("This is 2nd.");
-    //     break;
-    //   case 3:
-    //     console.log("This is 3rd");
-    //   default:
-    //     break;
-    // }
+let a = 3;
+switch (a) {
+      case 1:
+        console.log("This is 1st.");
+        break;
+      case 2:
+        console.log("This is 2nd.");
+        break;
+      case 3:
+        console.log("This is 3rd");
+      default:
+        break;
+    }
 // === Q-3 ===
 // let a=11;
 // if(a%2==0){
