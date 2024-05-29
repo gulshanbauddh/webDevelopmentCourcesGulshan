@@ -84,12 +84,12 @@
 //     rohan: 45,
 //     kamlesh: 65,
 // };
-// for (const key in obj) {
-//     if (Object.hasOwnProperty.call(obj, key)) {
-//         const element = obj[key];
-//         console.log(key, ":", element);
-//     }
-// }
+for (const key in obj) {
+    if (Object.hasOwnProperty.call(obj, key)) {
+        const element = obj[key];
+        console.log(key, ":", element);
+    }
+}
 
 // === Q-3 ===
 // let a=7;
@@ -99,14 +99,14 @@
 
 console.log("Gulshan Bauddh");
 //function gul(a,b,c,d,e){
-  // console.log((a+b+c+d+e)/5);
+// console.log((a+b+c+d+e)/5);
 //}
 //gul(3,5,7,9,3);
 
 //__________________________
 //Method 2
-function gul(a,b,c,d,e){
-   return ((a+b+c+d+e)/5);
+function gul(a, b, c, d, e) {
+  return (a + b + c + d + e) / 5;
 }
-pre=gul(3,5,7,4,3);
+pre = gul(3, 5, 7, 4, 3);
 console.log(pre);
