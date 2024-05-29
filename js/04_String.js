@@ -30,11 +30,12 @@
 // console.log(str4);
 
 // +++ Q-5 +++
+// Method-1
 // let str="Gulshan";
 // let cut=str.slice(3,4);
 // str1=str.replace(cut,"B");
 // console.log(str1);
-
-let str="Gulshan";
-str1=str.replace(str.slice(3,4),"B");
-console.log(str1);
+// Method-2
+// let str="Gulshan";
+// str1=str.replace(str.slice(3,4),"B");
+// console.log(str1);
