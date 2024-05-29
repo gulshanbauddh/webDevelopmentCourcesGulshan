@@ -110,7 +110,3 @@ function gul(a,b,c,d,e){
 }
 pre=gul(3,5,7,4,3);
 console.log(pre);
-
-
-
-
