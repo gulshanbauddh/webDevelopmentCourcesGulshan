@@ -2,7 +2,7 @@
 let a = Math.floor(Math.random() * 10);
 // console.log("Randan Number is:", a);
 
-const no = 1; // 1:for=>Addition, 2:for=>Substraction, 3:for=>Multipli, 4:for=>Divid.
+const no = 2; // 1:for=>Addition, 2:for=>Substraction, 3:for=>Multipli, 4:for=>Divid.
 const no1 = prompt("Enter 1st number"); // 1st number;
 const no2 = prompt("Enter 2st number"); // 2nd number;
 
